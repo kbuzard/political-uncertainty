@@ -1,0 +1,254 @@
+\documentclass[a4paper,12pt]{article}
+\begin{document}
+\title{Literature Review}
+\maketitle
+
+
+\begin{enumerate}
+\item “The ideological mapping of American legislatures”. B Shor, N McCarty - American Political Science Review, 2011 - cambridge.org (cited by 652)
+\begin{itemize}
+\item Empirical applications of spatial theory to state politics have been limited by two important factors. The first is that roll call voting data over time have not been collected for all 50 states. The second impediment is that because ideal points are latent quantities, direct comparisons across states or even between chambers within the same state are generally difficult to make. 
+\item The conjunction of these two problems reduces the scope of spatial theory in state politics to a choice between examining within-state variation for a handful of states or making dubious comparisons on a cross section of states. 
+\item In this article, we tackle both these potential problems with state-level applications of the spatial model. First, we introduce a new data set of state legislative roll call votes that covers all state legislative bodies over approximately a decade. Second, we employ a new strategy to establish comparability of estimates across chambers, across states, and across time. Here we use a survey of legislative candidates at the state and federal levels over a number of years. Importantly, the survey questions are asked in an identical form across states, and many questions are repeated over time. The survey allows us to make cross-state, cross-chamber, and over-time comparisons. 
+\item In particular, our spatial mapping not only adds a much needed cross-sectional element to empirical work on legislative institutions, but also will allow scholars to exploit institutional variation in ways not previously possible. 
+\item Identification of the models relies on the existence of bridge actors who cast votes (or make votelike decisions) in multiple settings. 
+\item Given the limitations of using bridge legislators to link states, we use the Project Vote Smart National Political Awareness Test (NPAT), a survey of state and federal legislative candidates. 
+\item In this article, we use Bayesian item-response theory models to estimate the spatial models (Clinton, Jackman, and Rivers 2004; Jackman 2000, 2004; Martin and Quinn 2002).4 We performed the same analysis with Poole–Rosenthal NOMINATE scores (Poole and Rosenthal 1991). The estimates of ideal points correlate extremely strongly across methods, which is to be expected given what we know about the performance of these two procedures in data-rich environments (Carroll et al. 2009; Clinton and Jackman 2009). 
+\item Figure 7 shows the distributions of scores by party, pooled across time within states. One of our most striking findings is the tremendous variation in polarization across states. 
+\item Figure 15 shows that polarization at the state legislative level is real, at least for the previous 15 years. Moreover, it reveals how much polarization varies across states. In comparison to Congress, the majority of state legislatures are less polarized, whereas 15 are actually more polarized. 
+\item Beyond the methodological breakthrough, our article makes a substantive contribution by documenting many key regularities of party positioning and ideological conflict in the American states. First, despite strong nationalizing trends in American politics, political parties below the national level are quite heterogeneous. Although no Republicans in Congress are more liberal than the most conservative Democrats, we find that many states have Republican state legislative contingents that are more liberal than the Democratic caucuses of many states. Moderate partisans thrive at the state level, just as they languish at the national level. Second, although the low stakes, salience, and information in many state legislative elections would point to a lack of ideological responsiveness, we find that this appears not to be the case. In the aggregate, state legislative medians correlate highly with voter ideology measures. At a more disaggregated level, the ideal points of state legislators correlate highly with presidential vote in their districts. How legislative responsiveness can subsist in such inhospitable environments is a key question for future research.  
+\item Finally, we are the first to systematically measure legislative polarization at the state level. 
+\end{itemize}
+
+\newpage
+
+\item “Using roll call estimates to test models of politics”. JD Clinton - Annual Review of Political Science, 2012. 
+\begin{itemize}
+\item I focus my review on some issues that scholars working with roll calls should consider when analyzing and interpreting the resulting estimates. I focus on the analysis of roll calls, but many of the same considerations likely apply to using any observed behavior to measure participants’ preferences. 
+\item Evaluating the predictions of a formal model using roll calls faces at least two difficulties. First, the strategic interactions being modeled may be responsible for only a small amount of the variation in the data. Second, the modeling decisions made when analyzing roll calls may make it difficult to correctly characterize the variation of theoretical interest. Unlike the preferences of formal models that are exogenous primitives (McCarty \& Meirowitz 2007), \textbf{the ideal point estimates produced from roll call analyses reflect the preferences members reveal in their behavior as interpreted through the application of a statistical model to an underlying model of individual choice}. Even if the variation predicted by the model is empirically discernible, the predictions of a formal model might still not be supported by roll call estimates if (a) the formal model is wrong, (b) the formal model is correct but a statistical model used to generate or evaluate the estimates is wrong, or (c) both the formal and statistical models are wrong. 
+\item Producing ideal points requires applying a statistical model to a model of individual choice. The meaning of the recovered estimates therefore depends critically on the modeling decisions that are made. Moreover, interpreting what the roll call estimates imply about the nature of politics often, but certainly not always, involves using the estimates to assess predictions from yet another model—a model of the political process (the “ideal point consumption” problem). 
+\item I focus on three aspects of the individual choice model that are common to prevalently used roll call estimators [i.e., the various flavors of NOMINATE (Poole \& Rosenthal 2007) and the Bayesian item response models of Clinton et al. 2004a, Martin \& Quinn 2002, and Bafumi et al. 2005]: the meaning of the estimated ideal point, the nature of legislators’ voting behavior, and the assumed voting error.  
+\item What is Ideal Point Model? … Given a most-preferred outcome or position in the policy space, the model of individual choice in roll call analyses assumes that legislators vote for the closest expected alternative in every pairwise comparison. The model of individual choice assumes that only the relative distance between a legislator’s most-preferred policy and the two alternatives being considered is relevant for determining her vote.  
+\item The author discusses several problems that may occur with this technique and some assumptions.  
+\item The presence of voting error is absolutely critical for roll call analyses because only ordinal rankings are identified with perfect (i.e., errorless) spatial voting (Poole 2000, 2005). If the assumption of probabilistic voting error is violated in some legislatures other methods may be required (e.g., Rosenthal \& Voeten 2004).
+\item Even if legislators vote probabilistically, however, \textbf{how the voting errors occur in the model of individual choice may matter}. Standard roll call estimators assume that legislators sometimes vote incorrectly despite perfectly knowing their ideal point and the location of the proposals being voted on. \textbf{The assumed voting error is therefore not attributable to uncertainty about the proposals being voted on or the ideal point that the legislator is attempting to implement.}  Instead, each legislator experiences an independent and identically distributed exogenous shock to her calculation of which alternative is closer to her ideal point on every vote.
+\item Alternative specifications of voting error are certainly possible, but the literature has only briefly explored them. Ladha (1991), for example, presents a probabilistic voting model where legislators idiosyncratically and imperfectly perceive the proposal being voted on, and Lauderdale (2010) allows for heteroskedastic voting error.
+\item The author uses the Agenda Setting Selection Model as an example to demonstrate how selection models can affect whether estimated ideal point estimates reflect true preferences, consider the agenda setter game of Romer \& Rosenthal (1978). Many prominent law-making models in political science can be interpreted as a variant of this game (see, e.g., Krehbiel 1996, Chiou \& Rothenberg 2003, Cox \& McCubbins 2005). 
+\item As an illustration, I explore how the selection model and the amount of voting error affect the recovery of true preferences using roll calls. I use a simulation study to demonstrate the importance of the roll call selection model and I characterize how the effect depends on the amount of voting error that is assumed to be present in the data-generating process. To be clear, the investigation is intended only to illustrate how simulations might be used to better understand the properties of roll call estimators when applied to particular contexts. 
+\item Londregan (2000a,b), for example, extends the spatial voting model to include valence considerations in the individual voting model to analyze legislators’ votes in Chile, and McCarty et al. (2001) modify the model of individual choice to allow for the possibility of party influence in the US House. 
+\end{itemize}
+
+\newpage
+
+
+\item “Unpredictable Voters in Ideal Point Estimation” BE Lauderdale - Political Analysis, 2010 -  
+\begin{itemize}
+\item In Section 2 of this paper, I discuss several substantive sources of variation in legislators' responsiveness to the primary political axes, including particularistic constituency interests and idiosyncratic legislator preferences. 
+\item I describe a Bayesian heteroskedastic ideal point estimator that can be either understood as a generalization of Jackman's (Jackman 2001) homoskedastic Bayesian estimator or a Bayesian implementation of Poole's QN estimator (Poole 2001). I use Monte Carlo simulation to assess how the number of legislators, the number of roll call votes, and the degree of true heteroskedasticity influence the degree to which the data-generating at can be recovered. 
+\item I find the heteroskedastic estimator outperforms the equivalent homo skedastic estimator for recovering ideal points, not only when there is substantial hetero skedasticity in the data generating process but even when the data-generating process is homoskedastic.
+\item I use a series of examples to show how the legislator-specific variance 07 itself can help refine the summaries of legislative voting patterns provided by ideal point estimation. The heteroskedastic ideal point estimator explicitly measures which legislators are idiosyncratic in their voting. 
+\item Bayesian Heteroskedastic Ideal Point Estimator: Some estimators are based on logistic disturbances (Poole and Rosenthal 1985; Bafumi et al. 2005), some on uniform disturbances (Heckman and Snyder 1997), and some on normal disturbances (Jackman 2001; Poole 2001). The quadratic loss, normal disturbance model has become especially popular in recent years, so I take that parametric form as my point of departure. 
+\item If the heteroskedastic estimator is to prove useful, it should have two properties. First, it should perform better than the homoskedastic model at recovering ideal points from roll call data generated by a heteroskedastic process. Ideally, it should perform no worse when the data-generating process is actually homoskedastic. Second, it should recover the relative values of “phi (i)” (heteroskedastic parameter) with sufficient precision in realistic data sets to make meaningful inferences. In the only previous work that estimates a legislator-specific variance parameter, Poole (2001) reports Monte Carlo simulation results for the recovery of the ideal points from generated data, but does not compare homoskedastic and heteroskedastic estimators or evaluate success at recovering legislator-specific variances.
+\item I found that the heteroskedastic estimator slightly outperforms the homoskedastic estimator at recovering the relative positions of ideal points, even when the true data-generating process is homoskedastic. 
+\item As Fig. 1 shows, using the heteroskedastic instead of the homoskedastic model does not change estimated ideal points for most legislators. However, the legislators with large estimated “phi(i)” are estimated to have more extreme ideal points under the heteroskedastic estimator. This reflects a substantive advantage of the heteroskedastic model: it recognizes that not all deviations from the pole of extreme partisan voting reflect moderation, some reflect extreme positions. 
+\item The homoskedastic model assumes that all individuals make the same magnitude voting errors, so when, for example, a democrat senator votes differently from ideologically similar senators, they are shifted towards the center, even if the reasons they deviated had nothing to do with the primary axis. The heteroskedastic model yields a more nuanced interpretation of the roll call data. 
+\item The heteroskedastic estimator identifies that the individuals deviations are unrelated to the individual's primary axis position, because they do not match the deviations that most moderate indiciduals (from the same ideological party) make.
+\item Just as heteroskedasticity can capture motivations that cannot be captured by a small number of spatial dimensions, it can also capture dimensions that were simply omitted. Examining legislators with large “phi(i)” (heteroskedastic parameter) is analogous to examining units with large residuals in a regression model. If many legislators who are difficult to predict have some shared substantive attribute, it is likely that adding another dimension to the model is justified. This diagnostic function of the heteroskedastic model os quite useful when one is interested in a high dimentional legislature like the EU parlament. Hix, Noury and Roland (2006, 2007) have demostrated that the EU Parlament can be effectively modeled using spatial modeling techniques. 
+\end{itemize}
+
+
+\newpage
+
+
+\item “The Structure of Utility in Spatial Models of Voting”. Royce Carroll, Jeffrey B. Lewis, James Lo, Keith T. Poole, Howard Rosenthal. American Journal of Political Science, 2013   
+\begin{itemize}
+\item In this article, we first consider a model in which legislators' utility functions are allowed to be a mixture of the two most commonly assumed utility functions: the quadratic function and the Gaussian function assumed by NOMINATE.
+\item Typically, the central objective in fitting empirical models of spatial voting is to estimate the ideal point X of each actor. In this article, we focus on the estimation of features of the utility function F. The central object of this research is to prove the limit of what it is possible to learn about F even conditional on the usual (strong) assumptions about the distribution of the idiosyncratic shocks. 
+\item This is a one-dimensional model, because in a multidimensional model identification problems could appear.  
+\item The paper begins by comparing a Gaussian utility representation with a quadratic one.  
+\item (I didn’t go further into the details of the paper because it is about unidimensionality) 
+\end{itemize}
+
+
+
+\newpage
+
+
+\item “Fast Estimation of Ideal Points with Massive Data”. K Imai, J Lo, J Olmsted - American Political Science Review, 2016    
+\begin{itemize}
+\item To overcome the resulting computational challenges, we propose fast estimation methods for ideal points with massive data. We derive the expectation-maximization (EM) algorithms to estimate the standard ideal point model with binary, ordinal, and continuous outcome variables. 
+\item In cases where a standard Markov chain Monte Carlo algorithm would require several days to compute ideal points, the proposed algorithm can produce essentially identical estimates within minutes. 
+\item Markov chain Monte Carlo (MCMC) algorithms can be prohibitively slow when applied to large data sets. As a result, researchers are often unable to estimate 
+\item Their models using the entire data and are forced to adopt various shortcuts and compromises. For example, Shor and McCarty (2011) fit their model in multiple steps using subsets of the data whereas Bailey (2007) resorts to a simpler parametric dynamic model in order to reduce computational costs (p. 441) (see also Bailey 2013). Since a massive data set implies a large number of parameters under these models, the convergence of MCMC algorithms also becomes difficult to assess. Bafumi and Herron (2010), for example, express a concern about the convergence of ideal points for voters (footnote 24). 
+\item In this article, we propose a fast estimation method for ideal points with massive data. Specifically, we develop the Expectation-Maximization (EM) algorithms (Dempster, Laird, and Rubin 1977) that either exactly or approximately maximize the posterior distribution under various ideal point models. The main advantage of EM algorithms is that they can dramatically reduce computational time. 
+\item We begin by deriving the EM algorithm for the standard Bayesian ideal point model of Clinton, Jackman, and Rivers (2004). We show that the proposed algorithm produces ideal point estimates which are essentially identical to those from other existing methods. 
+\item We implement the proposed algorithms via an opensource R package, \textbf{emIRT (Imai, Lo, and Olmsted 2015)}, so that others can apply them to their own research. 
+\item Finally, an important and well-known drawback of these EM algorithms is that they do not produce uncertainty estimates such as standard errors. In contrast, the MCMC algorithms are designed to fully characterize the posterior, enabling the computation of uncertainty measures for virtually any quantities of interest. 
+\item To address this problem, we apply the parametric bootstrap approach of Lewis and Poole (2004) (see also Carroll et al. 2009). Although this obviously increases the computational cost of the proposed approach, the proposed EM algorithms still scale much better than the existing alternatives. 
+\item The authors test the EM model versus different known model of MCMC and present their results along with an empirical application. 
+\end{itemize}
+
+
+
+
+\newpage
+
+
+\item “Lobbying, Campaign Contributions and Political Competition” J Rivas - 2017   
+
+\item (Question: Is there anything about uncertainty in this paper?)
+\item Answer: There is, the second and third bullet point has an overview of the way the paper treats uncertainty. 
+
+\begin{itemize}
+\item The purpose of this paper is to study how lobbying affects elections where candidates that are running for office can benefit from the funds offered by the lobbies in an exchange for adopting a political position favorable to these lobbies but different from that of the median voter.
+\item we show that uncertainty about the voter’s behavior will increase polarization only for the party that gets offered the contract from the higher valuation lobby while it will decrease the polarization of the other party. This is because as uncertainty about the voter goes up adopting a more polarized position becomes less risky. The high valuation lobby takes advantage of this by asking its party for a more polarized position while the low valuation lobby instead allows its party to become less polarized to be in a better position against the now more polarized opposing party.
+\item we obtain that uncertainty about the voter also increases the relative spending of the party associated with the high valuation lobby. This is because, as discussed in the previous paragraph, increasing uncertainty increases the polarization of the party associated with the high valuation lobby, which implies that now this lobby has to compensate its party by offering more funds proportional to the funds the other lobby offers.
+\item From the point of view of welfare measured as the utility of the median voter, we find among others that competition between lobbies, i.e. when both have similar valuations, minimizes welfare. 
+\item The model described above (previous paragraph in the paper) leads to a two stage four player Bayesian game where in the first stage each lobby simultaneously offers a contract to a different party, then in the second stage parties simultaneously and without knowing the contract offered to the other party decide whether to accept or to reject the contract. In a final stage which party wins the election is declared and its policy position implemented. We solve this game by finding its unique equilibrium and then we proceed to study how the different parameters in the model affect parties’ polarization, campaign spending, and voter’s welfare. 
+\item In our results about polarization we find, among others, that the lobby that has a higher stake in the election (the high valuation lobby henceforth) forces its party to adopt a more polarized position than the other party. Although a more polarized position decreases voter support, this can be partly compensated by a higher campaign spending, which the high valuation lobby is willing to fund. 
+\item In terms of campaign spending, we find that the higher valuation lobby will contribute more to campaign spending. Furthermore, we also find that the salience of the election decreases total campaign spending but increases the relative campaign spending of the party associated with the high valuation lobby (relative to the other party’s campaign spending). 
+\item From the point of view of welfare measured as the utility of the median voter, we find among others that competition between lobbies, i.e. when both have similar valuations, minimizes welfare. 
+\item This is a Bayesian game model, do not use data, only the Bayesian Equilibrium solution concept to characterize the model.  
+
+\end{itemize}
+
+
+\newpage
+
+
+\item “Incumbent Competition, Decision-making, and Policy Choice” AM Go - 2019   
+
+\begin{itemize}
+\item We approach the lobbying process as one where cash-for-favour exchanges occur as a means to obtain access to legislators. The model takes into account the \textbf{degree of uncertainty} on a non-strategic legislator’s preference, the legislator’s level of integrity, and the perceived advantages each lobbyist may have on their respective policies. Instead, we adopt a simultaneous lobbying structure to capture how lobbying proceeds behind closed doors.
+\item In this paper, we find that the degree of uncertainty of legislator preferences, given by the length of the bias intervals, directly affects the bidding strategy of lobbyists. At low levels of uncertainty, lobbyists bid aggressively. The bias of the legislator is not high enough to risk losing the legislator’s support. 
+\item We explore \textbf{uncertainty} by focusing on lobbyist behavior when faced with uncertain legislator preferences similar to Buzard and Saiegh (2016) and Dekel et al. (2006).  However, uncertainty is rarely explored on its own. We redirect the focus of the paper to lobbyist interactions over one non-strategic legislator. We remove the dimension of budget allocation and instead assume that the lobbyists are willing to pay at most the value of the legislator support. The results show that uncertainty on its own can provide some good insights on how lobbying unfolds. 
+\item We also include a measure of the legislator’s level of integrity. As with Che and Gale (1998), the politician does not hold an open sale for his support given restrictions on vote buying. We can think about this from the perspective of a reputation conscious politician. A reputation conscious politician may not want to be associated with more than one lobbying group for an issue, and would like to be viewed as consistent and honest by her constituents. The more controversial an issue is, the more likely it is for the politician’s threshold to be higher. 
+
+\end{itemize}
+
+\newpage
+
+
+
+
+\item “Multiple Ideal Points: Revealed Preferences in Different Domains” S Moser, A Rodriguez, CL Lofland - 2020
+\begin{itemize}
+\item We extend classical ideal point estimation to allow voters to have different preferences when voting in different domains – for example when voting on agricultural policy than when voting on defense policy. Our scaling procedure results in estimated ideal points on a common scale. As a result, we are able to directly compare a member’s revealed preferences across different domains of voting (different sets of motions) to assess if, for example, a member votes more conservatively on agriculture motions than on defense.  
+\item The key novelty is to estimate rather than assume the identity of “stayers” – voters whose revealed preference is constant across votes. There are several methodological advantages to our approach. First, our model allows for testing sharp-hypotheses. Second, the methodology developed can be understood as a kind of partial-pooling model for IRT scaling, resulting in less uncertainty of estimates. Related, our estimation method provides a principled and unified approach to the issue of “granulatity” (i.e. the level of aggregation) in the analysis of roll-call data (Crespin \& Rohde, 2010; Roberts, Smith, \& Haptonstahl, 2016). 
+\item The main issue in this line of work is how to ensure that the preferences of these different groups of political actors are indeed measured on a common scale. While each group of actors can be scaled independently using, e.g., NOMINATE (Poole \& Rosenthal, 1991; Poole \& Rosenthal, 2011) or IDEAL (Clinton, Jackman, \& Rivers, 2004), ensuring that the resulting scales are comparable is a delicate matter. 
+\item We develop a novel technique to estimate legislators’ revealed preferences in different domains of voting on a common scale. In our approach, votes are broken into predetermined groups and legislators are, in principle, allowed to have different preferences for each group. A hierarchical Bayesian model that uses clustering priors is then used to shrink the number of distinct positions that a legislators might have. When all votes belong to the same group, or all legislators have identical positions in all issues, our model reduces to a standard Bayesian item response theory (IRT) model (Albert \& Chib, 1993; Clinton et al., 2004). Otherwise, our approach is a strict generalization of it that relaxes the usual assumption that all votes are “equal” (for purposes of estimating latent traits from roll-call votes). 
+\item In addition to avoiding ex ante assumptions about allowable changes in revealed preferences, our approach has several other methodological advantages. First, our estimation approach results in a common scale, which allows us to properly compare the preferences of individuals across voting domains. In particular, our approach allows for the direct comparison and formal hypothesis tests across domains. For example, we may now formally test claims of the form “preferences in domain A are different than those in domain B” at the individual and group level.  
+\item Second, unlike most other approaches in the literature, ours allows us to make statements about the consistency of preferences at the individual-level, the group-level and at the chamber level. This is a direct consequence of the fact that our model estimates the identify of members with consistent preferences in all domains.  
+\item Third, because it relies on a joint model across all voting domains, the methodology developed here is a kind of “partial pooling” model for roll-call votes / IRT scaling, resulting in more precise estimates of preferences in each voting domain (a feature analogous to the “information borrowing” found in multi-level models).  
+\item Finally, since our model uses a hierarchical Bayesian prior, it automatically adjusts for the large number of comparisons involved in the analysis (Scott \& Berger, 2006, 2010). 
+\item The dimensionality of the voting is simply the number of latent traits required to accurately model legislators’ voting behavior. Hence, from a technical point of view, choosing the dimensionality of the policy space is essentially a model selection problem in which we aim to balance model fit with model complexity, and the dimensions in the latent space of a spatial voting model do not need not correspond to any politically relevant substantive issues. 
+\item Our model corresponds to a traditional spatial voting model (as would be expected). However, if there is a subset of legislators whose voting pattern on certain groups of votes cannot be well explained through a common set of linear combinations of the latent traits, our model will introduce an additional set of legislator-specific ideal points. In this way, our model allows us to investigate the interrelation between substantive issues and the intrinsic dimensionality of the policy space. 
+\item Our approach may the thought of as an intermediate compromise to the determination of “substantively relevant dimensions” in the language of Benoit and Laver (2012), having both inductive and deductive components. Namely, we start with (strong) priors on the structure of the conceptual space (by placing each vote in exactly one category we are effective putting a prior of 100\% that a vote v is of type g). And then inductively estimate the “. . . bundles of particular salient policy issues on which agents’ preferences are inter-correlated” (Benoit \& Laver, 2012, p. 205). This interpretation requires the vote-categories to be (at least prima face) related to dimensions spanning the conceptual space (Benoit \& Laver, 2012). 
+\item To facilitate computation, the authors introduce auxiliary random variables.
+\item Estimation of the model parameters is performed using a Markov chain Monte Carlo (MCMC) algorithm (Robert \& Casella, 2005). 
+\item We illustrate the model through an analysis of preferences in different policy domains using recorded votes from the 97th to 114th U.S. House of Representatives (1981 - 2016). Motions brought to a vote in the U.S. Congress differ thematically by substantive issue (e.g., the economy, environment, criminal justice, etc.). We use the Policy Agendas Project main topic coding to categorize roll call votes by issue area (Adler \& Wilkerson, 2017; Policy Agendas Project, 2017). This taxonomy, which consists of 20 mutually exclusive major topics (e.g., Macroeconomics, Health, Environment, etc.), has been used to study legislative agendas (Baumgartner \& Jones, 1993) and attention (Jones \& Baumgartner, 2005), among other matters. 
+\item We focus on the PAP categorization for two reasons. First, the application to issue areas illustrates the novel technical contributions of the model, namely (1) comparable revealed preferences across issues and (2) estimates of legislator-specific dimensionality. Second, as argued in Section 3, applying the model to votes grouped by issue area is relevant to the literature on dimensionality (Aldrich et al., 2014; Roberts et al., 2016; Talbert \& Potoski, 2002) by providing issue-specific revealed preference and an estimate of individual consistency – the posterior probably that a member has the same revealed preference in each issue area.
+\item One of the key contributions of our approach is its ability to provide micro-level information about the behavior of specific legislators. 
+\item Our model not only provides information about the identity of movers, but also about the nature of the issues in which they are movers, and the direction of preference changes. Similar to the procedure we used to define issue-specific ASFs, start by defining a member’s basic ideal point as their ideal point in their base cluster, and say a member has deviant preferences – preferences different than their basic ideal point – on issues not in their base cluster.
+\item Figure 7 compares member’s basic ideal point against the ideal points associated with four PAP issues for legislators in the 111th House (Banking and Finance, Civil Rights, Government Operations and Macroeconomics). More specifically, these ternary
+plots show the probability that a member’s ideal point in a specific issue is either left of, right of, or the same as their basic ideal point.
+\item We compare our illustration to Gerrish and Blei (2012b). While a direct comparison is not possible (as there voters have a main preference and issue-specific deviations), some of the insights provided by both models are similar. Gerrish and Blei (2012b) find votes on appropriations, finance, energy and public lands to have the most movement (issues for which issue-specific preferences deviate the most from members’ base preferences, roughly akin to our deviant issues). Likewise they find issues with the lease amount of movement to be defence and military, education and foreign policy. Looking at the 111th House in particular, they find members preferences on Civil Rights to exhibit very little deviance from their base preference, which is somewhat different from our findings. We both, however, do find a considerable amount of movement/ deviance in the domain of Government Operations.
+\item The author claimed that their model is less noicy than previous mocels in the literature, Figure 8. This is because their joint model borrows information across voting domains to estimate the ideal points, leading to lower \textbf{uncertainty}.
+\item A key issue to appreciate here (in Figure 8) is that the uncertainty associated with the estimates of ranks varies drastically. Generally speaking, the uncertainty associated with the rank of legislators that are close to the median voter of their own party tends to be much larger than the uncertainty associated with the ranks of centrist or radical legislators (Figure 4). Similarly, the uncertainty in the estimates of the ranks can vary substantially between parties (in the case of the 111th, the uncertainty associated with the
+ranks of Democrats is much larger than that of Republicans). As a consequence, changes in ranks for centrist, partisans and Republicans are easier to identify.
+\item (Conclusion of the paper) We developed a novel Bayesian model extending classical ideal point estimation methods to enable the joint estimation of voters’ preferences across different domains of voting. The model places the resulting estimates of a member’s ideal point on each of K groups of votes on a common scale so that, for example, the revealed preferences of a member when voting on agriculture can be compared to their preferences on defense. The key innovation is to estimate, rather than assume, the identity of full stayers – voters with the same ideal point in all domains. 
+\item The paper end with some applications and future research topics in which their model can be implemented.  
+
+\end{itemize}
+
+
+
+\newpage
+
+
+
+
+\item “Nonparametric ideal-point estimation and inference” A Tahk - Political Analysis, 2018 
+\begin{itemize}
+\item Existing approaches to estimating ideal points offer no method for consistent estimation or inference without relying on strong parametric assumptions. In this paper, I introduce a nonparametric approach to ideal point estimation and inference that goes beyond these limitations. I show that some inferences about the relative positions of two pairs of legislators can be made with minimal assumptions.  
+\item The bulk of these studies have used parametric ideal-point models that specify particular functional forms for the utility functions and error distributions. It is well known that the choice of parametric assumptions can affect the estimates and inferences derived from data. This has been demonstrated in the ideal-point context (e.g., Ho and Quinn 2010; Krehbiel and Peskowitz 2015) and has led studies to different conclusions on questions such as the dimensionality of congressional voting (see Poole and Rosenthal 1991; Heckman and Snyder 1997). 
+\item The only alternative approach has been to use Optimal Classification (OC), a model-free estimation method introduced by Poole (2000). Because OC “is not a statistical model” (Poole 2000, p. 211), statistical inference is not possible. OC is also not a consistent estimator of the rank order of the ideal points under quadratic utility. Thus, for many purposes, OC cannot be used in place of a parametric model. 
+\item The main contribution of this paper is to introduce a method for ideal-point inference and estimation under much weaker assumptions than previous approaches. It requires no parametric assumptions, making it the first approach to nonparametric ideal-point inference. Its estimates of the rank order of ideal points are also consistent under the same weak, nonparametric assumptions. 
+\item The model consists of two key assumptions: unidimensionality and concave utility 
+
+\item (given the key assumptions, I didn’t go further into the paper) 
+
+\end{itemize}
+
+
+
+\newpage
+
+
+
+
+\item “Measurement Uncertainty in Spatial Models: A Bayesian Dynamic Measurement Model” S Juhl - Political Analysis, 2019 
+\begin{itemize}
+\item The implicit assumption of perfectly measured covariates made by spatial econometric models creates a disjuncture between theory and empirics and threatens the validity of the findings. 
+\item This paper contributes to the literature by investigating how measurement uncertainty affects the substantial inferences about parties’ interrelatedness.  
+\item To this end, I develop a Bayesian dynamic item response (IRT) model with an evolution function that explicitly fits theoretical propositions. I model the ideological evolution of each party as a spatio-temporal autoregressive process and allow parties to strategically respond to movements made by their political competitors (e.g., Franzese and Hays 2007, 2008; Hays, Kachi, and Franzese 2010). 
+\item This article demonstrates that imperfect measures can severely affect the results. Hence, accounting for measurement uncertainty is not merely a methodological concern but can lead to very different inferences. 
+\item A key feature of the empirical analyses mentioned above is that the covariates—the parties’ positions—are latent quantities and therefore not directly observable.  
+\item As a consequence, two major obstacles arise: first, comparing party positions over time is difficult because they need to be located in a common space. Empirical research widely acknowledges this problem and presents various solutions to it (e.g., Poole and Rosenthal 1991; Martin and Quinn 2002; Herron 2004; Bailey 2007; Park 2011; Shor and McCarty 2011; König, Marbach, and Osnabrügge 2013). Second, latent variables are, by definition, unobservable and, as a result, afflicted with a quantifiable amount of uncertainty. Even the most sophisticated measures are subject to random measurement error which can distort the substantive inferences as numerous simulation studies already demonstrate (e.g., Fuller 1987; McAvoy 1998; Blackwell, Honaker, and King 2017; Loken and Gelman 2017) 
+\item I combine a predictive spatial econometric model with a dynamic measurement model for the latent quantities—parties’ ideological positions. I illustrate how the simultaneous estimation of party positions and their spatial dependencies avoids the assumption of perfectly measured regressors and presents an opportunity to directly incorporate theoretical predictions about parties’ reciprocal dependencies in empirical models. 
+
+\end{itemize}
+
+
+\newpage
+
+
+
+
+\item “Estimating ideal points from roll-call data: explore principal components analysis, especially for more than one dimension?” RF Potthoff - Social Sciences, 2018 
+\begin{itemize}
+\item The two main existing avenues for estimation of ideal points from roll-call data are the Poole-Rosenthal (P-R) approach and a Bayesian approach (CJR). We examine both of them critically, particularly for more than one dimension, before turning to detailed study of principal components analysis, a technique that has rarely seen use for ideal-point estimation but offers much promise. 
+\item The paper works as a comparison between the (P-R), CJR and the PCA (principal components analysis) model, been the latest the one the author is advocating for.  
+\item In two or more dimensions (there is no problem in one dimension), the gravest flaw of both P-R and CJR is their nonidentifiability of ideal points—nonidentifiability that goes beyond the simple indefiniteness of location, scale, and orientation. Unlimited numbers of transformations (ones that do not just change location or scale) produce shifts to new sets of ideal points that are substantively different but leave the maximized log likelihood unchanged. Troubles escalate as the number of dimensions increases. 
+\item Recognizing the nonidentifiability of CJR in two dimensions, Jackman (2001) sought to circumvent it by assigning certain priors to two roll calls chosen to serve as second- dimension anchors. However, this patch seems arbitrary and subjective. 
+\item For two or more dimensions, P-R has far more parameters than CJR (thus entailing worse identifiability troubles) yet even CJR itself lacks identifiability. 
+\item As will be seen shortly, PCA does not have any of the characteristics that have just been described. It does not suffer from nonidentifiability, it enjoys the orthogonality property, and its ideal-point estimates for a given dimension do not change when the number of dimensions changes. Several further modeling issues, in the form of arbitrary parameter constraints or identification assumptions, cause trouble for P-R. None of them apply to either CJR or PCA. 
+\item The author then explains how to use the PCA model to obtain ideal points with roll call data.  
+\item PCA provides no means to assess uncertainty. CJR uses Bayesian methodology to estimate uncertainty for estimates of ideal points and other parameters. Lewis and Poole (2004) proposed parametric-bootstrap standard errors to handle uncertainty assessment for P-R. Both the P-R and CJR techniques, however, rely on an ungrounded assumption of (mutual) conditional independence of a legislator’s votes given the ideal points and roll-call parameters. Although for PCA one may try to find complex standard-error formulas that steer clear of that assumption, it appears that, whether for P-R, CJR, or PCA, any \textbf{effort to assess uncertainty is fraught with impediments}. 
+\item Unlike P-R and CJR, PCA does not use a utility function in deriving its model. However, in its theory it is still based on a spatial voting model, just as P-R and CJR are. 
+\item (conclusion) for two or more dimensions, whose study may be fruitful for varied situations (e.g., for certain locales and time periods or certain subsets of votes or legislators), the relative benefits of PCA are especially striking and should suffice to make PCA a preeminent contender. 
+
+\end{itemize}
+
+
+
+\newpage
+
+
+
+
+\item "The geometry of multidimensional quadratic utility in models of parliamentary roll call voting" KT Poole - Political Analysis, 2001
+\begin{itemize}
+\item The purpose of this paper is to show how the geometry of the quadratic utility function in the standard spatial model of choice can be exploited to estimate a model of parliamentary roll call voting.
+\item In a standard spatial model of parliamentary roll call voting, the legislator votes for the policy outcome corresponding to Yea if her utility for Yea is greater than her utility for Nay. The voting decision of the legislator is modeled as a function of the difference between these two utilities. The difference between two quadratic utilities has a simple geometric interpretation that can be exploited to estimate legislator ideal points and roll call parameters in a standard framework where the stochastic portion of the utility function is normally distributed.
+\item To reiterate, if voting is perfect, that is, sincere and without error, then in one dimension the legislator ideal points and the roll call midpoints are identified only up to a joint rank ordering. In more than one dimension, legislators are identified up to regions in the space (polytopes) and roll calls are identified up to cone-shaped regions containing the normal vectors and line segments on the normal vectors for the midpoints. These limits on identifica tion arise because the data are simply Yea and Nay. If legislators could report "thermometer scores" for the alternatives, then the perfect case would have an exact solution.
+\item With quadratic utility, only the location of the cutting hyperplane and the signed distance between the Yea and the Nay alternatives can be estimated. In this framework, there is an infinite number of pairs of Yea and Nay points that produce the same hyperplane and signed distance. 
+\item In contrast, an advantage to the normal distribution deterministic utility function used in NOMINATE is that it introduces enough nonlinearities in the utility differences to identify actual positions of the Yea and Nay alternatives. These points have to be used with some caution (Poole and Rosenthal 1997, Appendix A) but it is important to note that the use of the quadratic utility function precludes the estimation of specific Yea and Nay points.
+\item Turning to the stochastic portion of the utility function stated in Eq. (3), three probability distributions have been used to model the error: the normal (Ladha 1991; Londregan 2000), uniform (Heckman and Snyder 1997), and logit (Poole and Rosenthal 1997). The normal is clearly the best from both a theoretical and a behavioral standpoint. 
+\item From a statistical standpoint, given the difference between the two random errors, the standard assumptions are that they are a random sample (independent and identically distributed random variables) from a known distribution. Hence, it is therefore easy to write down the probability distribution of the difference.
+\item  From a behavioral standpoint, it seems sensible to assume that the distributions of the diffrence of the errors are symmetric and unimodal and that they are uncorrelated. The normal distribution is the only one of the three distributions to satisfy all these criteria.
+\item A further difficulty with the approaches taken both by Heckman and Snyder and by Poole and Rosenthal is that they assume that the error variance is homoskedastic. A more realistic assumption is that the error variance varies across the roll call votes and across the legislators. For the roll calls, it is impossible to distinguish between the underlying unknown error variance and the distance between the Yea and the Nay alternatives (Ladha 1991; Londregan 2000). The intuition behind this is straightforward. As the distance between the Yea and the Nay alternatives increases, the easier it is for legislators to distinguish between the two policy outcomes and the less likely it is that they make an error. Conversely, if the Yea and Nay alternatives are very close together, then the utility difference is small and it is more likely that voting errors occur. Increasing/decreasing the distance is equivalent to decreasing/increasing the variance of the underlying error
+\item The approach developed in Section 5 allows the error to be heteroskedastic. The optimal classification algorithm developed by Poole (2000) can be used to obtain excellent estimates for the legislator points, the jc, 's, the roll call normal vectors, the nj's, and the cutpoints, the m/s.
+\item The multidimensional quadratic utility model (QN) can be efficiently estimated in four steps. Within each step the approach taken is to estimate one parameter at a time with all the remaining parameters being held fixed. That is, the maximum of the likelihood function is found for the parameter being estimated conditioned on all the remaining parameters being held fixed. The algorithm always moves uphill in a city block-like fashion. At convergence, every parameter is at a maximum conditioned on all the remaining parameters being held fixed. Convergence to the true global maximum cannot be guaranteed but the conditional global maximum that the algorithm reaches is almost certainly close to the overall global maximum. Although this is not an EM algorithm, it is similar in spirit because the log likelihood always increases from one step to the next.
+\item Section 6 compares the Monte Carlo test with other scaling procedures. 
+\item Given the computational difficulties in more than one dimension, an attractive alternative to obtain standard errors is a bootstrap analysis. 
+\item Because obtaining good-quality standard errors for the parame ters of spatial models of parliamentary voting is very difficult, embedding the geometry in the innovative MCMC work of Jackman (2000) would produce an alternative method of assessing uncertainty in the multidimensional spatial model.
+\item The purpose of this paper was to show a method of estimating a multidimensional spatial voting model with quadratic utility and normally distributed errors. The geometry of the multidimensional quadratic utility function can be exploited to estimate legislator ideal points and roll call cutting planes in a standard framework where the stochastic portion of the utility function is normally distributed. The QN scaling procedure is quite stable and does a good job in recovering the true legislator configuration in Monte Carlo tests. 
+\item The QN scaling procedure produces legislator configurations that are very similar to those produced by other scaling algorithms. A unique feature of QN is that it allows the variance of the error to vary across legislators. Although the legislator error variances are related to the level of correct classification, more than just correct classification is at work.
+
+\end{itemize}
+
+
+\end{enumerate}
+
+\end{document}
