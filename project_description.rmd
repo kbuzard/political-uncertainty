@@ -1,0 +1,88 @@
+---
+title: "Lobbying and Legislative Uncertainty"
+author: "Kristy Buzard and Sebastian Saiegh"
+date: "February 8, 2021"
+output: pdf_document
+fontsize: 12pt
+linestretch: 1.25
+toc: true
+urlcolor: blue
+---
+
+
+# What are the critical questions?
+1. How does ex-ante uncertainty about whether a measure is going to be passed (we refer to this as statutory or legislative uncertainty) affect the incentives for lobbying and the associated prospects for the passage of legislation?
+
+	- When vote buying is possible, what is the optimal lobbying strategy for a given level of uncertainty?
+	- How does behavior of actors throughout the legislative system vary with statutory uncertainty?
+	- How does behavior of the varying actors influence the level of uncertainty? 
+	
+2. Can we produce well-identified cross-industry (i.e. interest group) measures of the uncertainty that lobbyists face ex ante?
+
+
+# What is unique about our approach / data?
+We focus on the unpredictability of legislators' voting behavior caused by the complicated set of factors that influence legislators, e.g., personal values, announced positions, the views of their constituents, and the preferences of their party leadership.
+
+- This uncertainty is one of the micro-foundations of the policy uncertainty that has been the focus of a growing literature over the last decade.
+
+We've constructed a game-theoretic model of vote buying in which the uncertainty is about the central tendency of legislators' ideological positions, and lobbying can shift the mean of a legislator's ideal point distribution.
+
+- NOTE: Lobbying behavior here affects legislators in a way that is similar to the way whips influence legislators in Canen, Kendall and Trebbi (2020)
+- The model predicts that lobbyists on both sides of an issue may be active at the same time (this is in contrast to models without uncertainty), that moderate legislators and those about which there is average uncertainty receive more bribes than those that are ideologically extreme, and that gross-of-bribes ideal points need not be equalized.
+- We find support for these predictions in U.S. House of Representatives roll call data using a simple logistic item response model to estimate the mean and standard error of each legislator's ideal point.
+	- See for reference this early stage (and very old) [draft](https://github.com/kbuzard/political-uncertainty/blob/master/writing/output/draft.pdf).
+
+## Theoretical model
+We follow Groseclose and Snyder (1996) and Banks (2000) in taking a policy proposal as given and studying the behavior of interest groups who may lobby legislators in an attempt to sway the outcome of the vote.
+
+- For tractability, we study a three-person legislature in which two lobbyists---one for the new proposal and one against it---sequentially offer payments to the legislators.
+- Canen, Kendall and Trebbi (2020) has us reconsidering whether we need to model the process before the floor vote, especially given evidence that uncertainty over passage is an important determinant of whether a measure progresses through the legislative process.
+	- We have, to date, been less interested in the choice of proposals.
+
+If we assume identical levels of uncertainty about the ideal points of all the legislators, we find that vote buyers use "leveling strategies" as in Groseclose and Snyder (1996) and Banks (2000).
+
+- In contrast to results in a model without uncertainty, when only one or two legislators are bribed the legislator who remains unbribed is often the one who is most ideologically-aligned with the vote buyer. When the legislators are roughly unbiased on average, it is the moderate legislator who is bribed first. This corresponds well with the data that shows that more moderate legislators receive more campaign contributions.
+
+Allowing for asymmetric levels of uncertainty provides a more realistic picture that accords well with our reduced-form empirical findings that
+
+1. legislators with moderate levels of uncertainty are the targets of more lobbying than legislators with either low or high levels of uncertainty; and
+2. legistors about whom there are very high levels of uncertainty most often remain unbribed.
+
+## Empirical model
+We plan to develop a methodology for quantifying cross-industry political uncertainty using a multi-dimensional ideal point model.
+
+- We are interested in unpredictability vis-a-vis particular policy issues. Preliminary work with our data indicates that using subsets of roll calls to establish legislators' ideal points separately on each issue (Poole 2005) is not statistically robust. Instead, we have been using all roll call votes in a legislative session or group of sessions to estimate an ideal point with a separate dimension for each interest group. This allows for the partial pooling of information across roll calls.
+	
+The theoretical model above is being adapted as a means to identify political uncertainty in this context. We think there are some strong possibilities with regard to data outside the standard roll-call voting data to help with identification.
+
+1. We've used [maplight.org](https://maplight.org/data_guide/bill-positions-api/) data to identify the issues that are at stake in any given bill. This data starts during the 109th Congress.
+2. There are several approaches for identifying ideology of legislators (in addition to the whip counts in Canen, Kendall and Trebbi 2020, which we expect are not available for the newer data): campaign contributions (Bonica 2018), surveys of candidates like NPAT (Ansolabehere, Snyder Jr, and Stewart, 2001; Montagnes and Rogowski, 2014), and ratings by interest groups (perhaps too much scope for endogeneity here).
+3. Sebastian has worked with financial market volatility data (e.g., [Carnahan and Saiegh 2020](https://doi.org/10.1111/ecpo.12163)); we think it's worth exploring whether we can connect sub-indices or groups of stocks with interest groups/bills and measure the uncertainty around passage as the difference in level and/or volatility before vs. after a vote.
+		
+
+# What is the contribution?
+The results of the theoretical model accord well with important patterns in the data, and we believe this model makes an important contribution to the understanding of the political uncertainty that surrounds statutory lawmaking. It both brings more realism to the study of legislative voting and vote buying *and* gives us a window into an important, under-studied facet of the legislative environment.
+
+- We hope that the project will provide suggestions for how to reduce the role of lobbying in U.S. legislative politics.
+- If the theoretical model above can be adapted to cleanly identify political uncertainty, we will establish the relevance of the resulting measures for policy-making and will make the data available for future use in a wide range of applications.
+
+
+# What is our motivation?
+Kristy wants to test a [theoretical model](https://onlinelibrary.wiley.com/doi/abs/10.1111/roie.12254) ([ungated version](https://kbuzard.expressions.syr.edu/wp-content/uploads/TradeAgreements_Shadow_Lobbying.pdf)) about the design and ratification of free trade agreements that indicates that statutory uncertainty is a key predictor of negotiating behavior by the executive, lobbying behavior by private actors, as well as final passage of trade agreements.
+
+Some implications of that model:
+
+1. In the case of political certainty, only exporting industries exert lobbying effort.
+
+2. When political uncertainty is present, both import-competing and exporting industries may exert lobbying effort. When this is the case, equilibrium ratification failure is possible.
+
+3. When political uncertainty is present, tariff levels are impacted by the amount of political uncertainty faced by the relevant lobby in addition to the factors that are relevant in the absence of uncertainty.
+
+Kristy has developed several other projects that are on hold until the empirical measures of cross-industry statutory uncertainty can be produced.
+
+
+# Why do we need a structural model?
+We believe we need a structural model in order to:
+
+1. disentange the uncertainty that lobbyists face from the uncertainty faced by the econometrician; and
+2. break a fundamental endogeneity: lobbyists (and other actors) react to the level of uncertainty they perceive, but their behavior also helps to determine the ex-post level of uncertainty. This ex-post uncertainty in turn is used to update the actors' evaluations of ex-ante uncertainty for future votes.
